@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <title>Demo for Responsive Map Areas script</title>
+
+    <!-- <style type="text/css">
+      /* this makes your image responsive */
+      img {
+        width: 100%;
+        height: auto;
+      }
+    </style> -->
+  </head>
+
+  <body>
+    <main>
+      <!-- your image -->
+      <img id="mapImage" src="img/GPS99_map-home.png" width="100%" height="auto" usemap="#my_map" alt="" />
+
+      <!-- your map -->
+      <map id="my_map" name="my_map">
+        <area target="" alt="" title="A tout moment" href="" coords="83,148,290,434" shape="rect">
+        <area target="" alt="" title="Prévenir" href="" coords="413,61,610,318" shape="rect">
+        <area target="" alt="" title="Dépister" href="" coords="727,57,924,310" shape="rect">
+        <area target="" alt="" title="Doutes" href="" coords="1053,48,1283,345" shape="rect">
+        <area target="" alt="" title="Annonces" href="" coords="1320,154,1545,443" shape="rect">
+        <area target="" alt="" title="Vivre" href="" coords="1600,132,1811,439" shape="rect">
+        <area target="" alt="" title="Apres" href="" coords="65,610,250,869" shape="rect">
+        <area target="" alt="" title="Rechute" href="" coords="403,507,626,786" shape="rect">
+        <area target="" alt="" title="Remission" href="" coords="799,586,1018,877" shape="rect">
+        <area target="" alt="" title="Quotidien" href="" coords="1149,521,1351,814" shape="rect">
+        <area target="" alt="" title="Essais" href="" coords="1474,528,1656,852" shape="rect">
+      </map>
+
+      <script src="js/ResponsiveMapAreas.min.js"></script>
+
+      <script>
+        // Either call this for each of the map you want to make responsive:
+        // ARGUMENT
+        // the id of your map
+        makeResponsive("my_map");
+      </script>
+    </main>
+  </body>
+  <script src="main.js"></script>
+</html>
